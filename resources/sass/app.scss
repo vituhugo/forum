@@ -1,0 +1,16 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~simplemde/dist/simplemde.min.css";
+@import "~slick-slider/slick/slick";
+@import "~slick-slider/slick/slick-theme";
+
+.slick-arrow:before {
+    color: $purple;
+}
+
+@import "home";
